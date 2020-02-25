@@ -11,11 +11,12 @@ Requirement:
 ### Installation Step:
 1. Clone the repository: `git clone https://github.com/sandiwo/contacts.git`
 2. `$ cd contacts`
-3. `cp .env.example .env`
-4. `$ php artisan key:generate`
-5. Create new MySQL database for this application
-6. Set database credentials on `.env` file
-7. `$ php artisan migrate`
-8. `$ php artisan db:seed`
-9. `$ php artisan serve`
-10. Visit `http://localhost:8000/` via web browser
+3. `$ composer install`
+4. `cp .env.example .env`
+5. `$ php artisan key:generate`
+6. Create new MySQL database for this application
+7. Set database credentials on `.env` file
+8. `$ php artisan migrate`
+9. `$ php artisan db:seed`
+10. `$ php artisan serve`
+11. Visit `http://localhost:8000/` via web browser
