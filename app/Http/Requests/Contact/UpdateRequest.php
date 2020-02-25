@@ -27,7 +27,7 @@ class UpdateRequest extends FormRequest
             'group_id' => 'required',
             'first_name' => 'required|max:255',
             'last_name' => 'required|max:255',
-            'avatar' => 'nullable',
+            'avatar' => 'nullable|mimes:png,jpg,jpeg',
             'email' => 'required|email|max:255',
             'phone' => 'required|numeric',
             'address' => 'required',
