@@ -1,11 +1,11 @@
 ## Contact App
 
-Contact app is a application to manage contact list belongs to group.
+**Contact app** is a application to manage contact list belongs to group.
 
 ## Getting Started
 Requirement: 
 ### Server Requirement:
-1. PHP >= 7.2.0 (and meet Laravel 6.x server requirements)
+1. PHP >= 7.2.0 (and meet [Laravel 6.x server requirements](https://laravel.com/docs/6.x#server-requirements))
 2. MySQL or MariaDB database
 
 ### Installation Step:
